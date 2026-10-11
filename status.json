@@ -1,0 +1,139 @@
+{
+ "generated_at": "2026-10-11T18:59:14Z",
+ "counts": {
+  "ip": 30488,
+  "sni": 1382
+ },
+ "sources": [
+  {
+   "name": "hxehex-cidr",
+   "kind": "ip",
+   "url": "https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/HEAD/cidrwhitelist.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 30228,
+   "updated_at": "2026-05-09T10:41:42Z"
+  },
+  {
+   "name": "hxehex-ip",
+   "kind": "ip",
+   "url": "https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/HEAD/ipwhitelist.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 141664,
+   "updated_at": "2026-05-11T15:50:54Z"
+  },
+  {
+   "name": "d010b",
+   "kind": "ip",
+   "url": "https://raw.githubusercontent.com/d010b/custom_geoip/HEAD/whitelist_url.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 825,
+   "updated_at": "2026-10-11T05:13:45Z"
+  },
+  {
+   "name": "roscomvpn",
+   "kind": "ip",
+   "url": "https://raw.githubusercontent.com/hydraponique/roscomvpn-geoip/HEAD/release/text/whitelist.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 6710,
+   "updated_at": "2026-04-23T05:38:11Z"
+  },
+  {
+   "name": "roscomvpn-custom",
+   "kind": "ip",
+   "url": "https://raw.githubusercontent.com/hydraponique/roscomvpn-geoip/HEAD/CUSTOM-WHITELIST.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 17911,
+   "updated_at": "2026-06-06T10:50:48Z"
+  },
+  {
+   "name": "escapingworm",
+   "kind": "ip",
+   "url": "https://raw.githubusercontent.com/escapingworm/russia-whitelist/HEAD/ru-whitelist-cidr.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 88,
+   "updated_at": "2026-04-22T19:51:01Z"
+  },
+  {
+   "name": "overskye-v4",
+   "kind": "ip",
+   "url": "https://raw.githubusercontent.com/overskye/ru-cdn-whitelist/HEAD/ipv4.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 535,
+   "updated_at": "2026-10-09T10:10:11Z"
+  },
+  {
+   "name": "overskye-v6",
+   "kind": "ip",
+   "url": "https://raw.githubusercontent.com/overskye/ru-cdn-whitelist/HEAD/ipv6.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 244,
+   "updated_at": "2026-10-06T13:40:11Z"
+  },
+  {
+   "name": "d010b-no-more",
+   "kind": "ip_exclude",
+   "url": "https://raw.githubusercontent.com/d010b/custom_geoip/HEAD/whitelist_no_more",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 46,
+   "updated_at": "2026-09-23T13:39:00Z"
+  },
+  {
+   "name": "hxehex",
+   "kind": "sni",
+   "url": "https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/HEAD/whitelist.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 910,
+   "updated_at": "2026-07-23T08:31:19Z"
+  },
+  {
+   "name": "kirilllavrov",
+   "kind": "sni",
+   "url": "https://raw.githubusercontent.com/kirilllavrov/whitelists/HEAD/release/whitelist.txt",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 322,
+   "updated_at": "2026-07-20T01:17:26Z"
+  },
+  {
+   "name": "roscomvpn",
+   "kind": "sni",
+   "url": "https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/HEAD/data/whitelist",
+   "stale": false,
+   "error": null,
+   "rejected": 2,
+   "count": 465,
+   "updated_at": "2026-04-13T07:06:53Z"
+  },
+  {
+   "name": "cheburnet",
+   "kind": "sni",
+   "url": "https://raw.githubusercontent.com/jinndi/geosite-cheburnet/HEAD/geosite-cheburnet.json",
+   "stale": false,
+   "error": null,
+   "rejected": 0,
+   "count": 1321,
+   "updated_at": "2026-10-10T12:59:25Z"
+  }
+ ]
+}

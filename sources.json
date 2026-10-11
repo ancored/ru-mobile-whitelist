@@ -1,0 +1,21 @@
+{
+  "ip": [
+    {"name": "hxehex-cidr", "repo": "hxehex/russia-mobile-internet-whitelist", "path": "cidrwhitelist.txt"},
+    {"name": "hxehex-ip", "repo": "hxehex/russia-mobile-internet-whitelist", "path": "ipwhitelist.txt"},
+    {"name": "d010b", "repo": "d010b/custom_geoip", "path": "whitelist_url.txt"},
+    {"name": "roscomvpn", "repo": "hydraponique/roscomvpn-geoip", "path": "release/text/whitelist.txt"},
+    {"name": "roscomvpn-custom", "repo": "hydraponique/roscomvpn-geoip", "path": "CUSTOM-WHITELIST.txt"},
+    {"name": "escapingworm", "repo": "escapingworm/russia-whitelist", "path": "ru-whitelist-cidr.txt"},
+    {"name": "overskye-v4", "repo": "overskye/ru-cdn-whitelist", "path": "ipv4.txt"},
+    {"name": "overskye-v6", "repo": "overskye/ru-cdn-whitelist", "path": "ipv6.txt"}
+  ],
+  "ip_exclude": [
+    {"name": "d010b-no-more", "repo": "d010b/custom_geoip", "path": "whitelist_no_more"}
+  ],
+  "sni": [
+    {"name": "hxehex", "repo": "hxehex/russia-mobile-internet-whitelist", "path": "whitelist.txt"},
+    {"name": "kirilllavrov", "repo": "kirilllavrov/whitelists", "path": "release/whitelist.txt"},
+    {"name": "roscomvpn", "repo": "hydraponique/roscomvpn-geosite", "path": "data/whitelist"},
+    {"name": "cheburnet", "repo": "jinndi/geosite-cheburnet", "path": "geosite-cheburnet.json", "format": "sing-box"}
+  ]
+}

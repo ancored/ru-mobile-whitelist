@@ -1,0 +1,5 @@
+out/
+out-*/
+previous/
+__pycache__/
+*.srs

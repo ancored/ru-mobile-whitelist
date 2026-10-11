@@ -1,0 +1,89 @@
+name: build
+
+on:
+  schedule:
+    - cron: "30 20 * * *"  # 23:30 МСК
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - build.py
+      - sources.json
+      - include/**
+      - exclude/**
+      - .github/workflows/build.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+env:
+  SING_BOX_VERSION: 1.13.21
+  SING_BOX_SHA256: 24f9ef8e7234e13e71e74c3598a4164c5fe07b7b67ccc6e96cf68b54789f72cd
+  KEEP_RELEASES: 14
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Тесты
+        run: python3 -m unittest discover -s tests
+
+      - name: Прошлая сборка
+        run: |
+          if git fetch --depth=1 origin release; then
+            git worktree add -B release previous FETCH_HEAD
+          else
+            git worktree add --orphan -b release previous
+          fi
+
+      - name: sing-box
+        run: |
+          curl -fsSL -o sing-box.tar.gz \
+            "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
+          echo "${SING_BOX_SHA256}  sing-box.tar.gz" | sha256sum -c -
+          mkdir -p "$RUNNER_TEMP/bin"
+          tar -xzf sing-box.tar.gz --strip-components=1 -C "$RUNNER_TEMP/bin" \
+            "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box"
+          echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
+
+      - name: Сборка
+        id: build
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 build.py --previous previous --out out
+          for kind in ip sni; do
+            sing-box rule-set compile --output "out/ru-mobile-whitelist-$kind.srs" "out/ru-mobile-whitelist-$kind.json"
+          done
+          cat out/CHANGES.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Публикация
+        if: steps.build.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="$(date -u +%Y.%m.%d)-${GITHUB_RUN_NUMBER}"
+          find previous -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -r out/. previous/
+          cd previous
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Файлы не изменились"
+            exit 0
+          fi
+          git commit -q -m "Списки $tag"
+          git push origin release
+          cd ..
+          gh release create "$tag" out/*.srs out/*.json out/*.txt \
+            --title "$tag" --notes-file out/CHANGES.md --latest
+          gh release list --limit 100 --json tagName,createdAt \
+            --jq "sort_by(.createdAt) | reverse | .[${KEEP_RELEASES}:][].tagName" \
+            | xargs -r -n1 gh release delete --cleanup-tag -y

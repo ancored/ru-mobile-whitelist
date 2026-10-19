@@ -444,6 +444,8 @@ koronapay.com
 koshelek.app
 koshelev-bank.ru
 kostroma.ru
+kp-config-smart-tv.akamaized.net
+kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
 kp.ru
 krasnodar.su
 krasnoyarsk.ru
@@ -451,6 +453,8 @@ krasyar.ru
 krd.ru
 kremlin.ru
 kremlinbank.ru
+ktalk.host
+ktalk.ru
 kuban.ru
 kubankredit.ru
 kuper.ru
@@ -521,6 +525,7 @@ mordovia.ru
 more.tv
 mos.ru
 moskva-putinu.ru
+mospat.ru
 mosreg.ru
 motivtelecom.ru
 movika.com
@@ -650,6 +655,7 @@ ozonru.me
 ozonsport.ru
 ozonstatus.ru
 ozonusercontent.com
+patriarchia.ru
 payment.ru
 paywb.com
 paywb.ru
@@ -699,6 +705,7 @@ rbsgate.com
 rbsuat.com
 rdb.ru
 realtyverif.ru
+regionvideo.ru
 ren.tv
 rencapbank.ru
 rencredit.ru
@@ -901,6 +908,8 @@ time-messenger.ru
 timerbank.ru
 timeweb.cloud
 timeweb.com
+timeweb.tech
+timewebcloud.kz
 tinkoff-edu.ru
 tinkoff-group.com
 tinkoff.ai

@@ -1,5 +1,5 @@
-- IP: 30485 записей (+0 / −2)
-- SNI: 1382 записей (+0 / −0)
+- IP: 30485 записей (+0 / −0)
+- SNI: 1391 записей (+9 / −0)
 
 | Источник | Тип | Записей | Изменён в источнике | Состояние |
 |---|---|---|---|---|
@@ -15,4 +15,4 @@
 | [hxehex](https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/HEAD/whitelist.txt) | sni | 910 | 2026-07-23 | ок |
 | [kirilllavrov](https://raw.githubusercontent.com/kirilllavrov/whitelists/HEAD/release/whitelist.txt) | sni | 322 | 2026-07-20 | ок |
 | [roscomvpn](https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/HEAD/data/whitelist) | sni | 465 | 2026-04-13 | ок |
-| [cheburnet](https://raw.githubusercontent.com/jinndi/geosite-cheburnet/HEAD/geosite-cheburnet.json) | sni | 1321 | 2026-10-10 | ок |
+| [cheburnet](https://raw.githubusercontent.com/jinndi/geosite-cheburnet/HEAD/geosite-cheburnet.json) | sni | 1330 | 2026-10-19 | ок |

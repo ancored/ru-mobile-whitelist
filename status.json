@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T00:44:49Z",
+ "generated_at": "2026-11-05T00:58:15Z",
  "counts": {
   "ip": 30484,
   "sni": 1393
@@ -109,11 +109,11 @@
    "name": "kirilllavrov",
    "kind": "sni",
    "url": "https://raw.githubusercontent.com/kirilllavrov/whitelists/HEAD/release/whitelist.txt",
-   "stale": false,
-   "error": null,
+   "stale": true,
+   "error": "HTTP Error 404: Not Found",
    "rejected": 0,
    "count": 322,
-   "updated_at": "2026-07-20T01:17:26Z"
+   "updated_at": "2026-11-04T21:11:30Z"
   },
   {
    "name": "roscomvpn",

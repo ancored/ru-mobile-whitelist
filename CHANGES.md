@@ -1,4 +1,4 @@
-- IP: 30484 записей (+2 / −0)
+- IP: 30484 записей (+0 / −0)
 - SNI: 1393 записей (+0 / −0)
 
 | Источник | Тип | Записей | Изменён в источнике | Состояние |
@@ -13,6 +13,6 @@
 | [overskye-v6](https://raw.githubusercontent.com/overskye/ru-cdn-whitelist/HEAD/ipv6.txt) | ip | 241 | 2026-11-03 | ок |
 | [d010b-no-more](https://raw.githubusercontent.com/d010b/custom_geoip/HEAD/whitelist_no_more) | ip_exclude | 46 | 2026-09-23 | ок |
 | [hxehex](https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/HEAD/whitelist.txt) | sni | 910 | 2026-07-23 | ок |
-| [kirilllavrov](https://raw.githubusercontent.com/kirilllavrov/whitelists/HEAD/release/whitelist.txt) | sni | 322 | 2026-07-20 | ок |
+| [kirilllavrov](https://raw.githubusercontent.com/kirilllavrov/whitelists/HEAD/release/whitelist.txt) | sni | 322 | 2026-11-04 | прошлая копия: HTTP Error 404: Not Found |
 | [roscomvpn](https://raw.githubusercontent.com/hydraponique/roscomvpn-geosite/HEAD/data/whitelist) | sni | 465 | 2026-04-13 | ок |
 | [cheburnet](https://raw.githubusercontent.com/jinndi/geosite-cheburnet/HEAD/geosite-cheburnet.json) | sni | 1332 | 2026-10-22 | ок |

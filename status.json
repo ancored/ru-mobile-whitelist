@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-05T00:58:15Z",
+ "generated_at": "2026-11-06T01:00:35Z",
  "counts": {
-  "ip": 30484,
+  "ip": 30483,
   "sni": 1393
  },
  "sources": [
@@ -73,7 +73,7 @@
    "error": null,
    "rejected": 0,
    "count": 531,
-   "updated_at": "2026-11-03T12:00:12Z"
+   "updated_at": "2026-11-05T14:10:10Z"
   },
   {
    "name": "overskye-v6",

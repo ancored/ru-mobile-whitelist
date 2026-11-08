@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-07T00:11:15Z",
+ "generated_at": "2026-11-08T23:51:29Z",
  "counts": {
-  "ip": 30487,
+  "ip": 30486,
   "sni": 1393
  },
  "sources": [
@@ -32,8 +32,8 @@
    "stale": false,
    "error": null,
    "rejected": 0,
-   "count": 831,
-   "updated_at": "2026-11-06T07:17:42Z"
+   "count": 828,
+   "updated_at": "2026-11-08T17:06:30Z"
   },
   {
    "name": "roscomvpn",

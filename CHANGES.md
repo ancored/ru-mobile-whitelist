@@ -1,4 +1,4 @@
-- IP: 30493 записей (+7 / −0)
+- IP: 30495 записей (+2 / −0)
 - SNI: 1393 записей (+0 / −0)
 
 | Источник | Тип | Записей | Изменён в источнике | Состояние |
@@ -9,7 +9,7 @@
 | [roscomvpn](https://raw.githubusercontent.com/hydraponique/roscomvpn-geoip/HEAD/release/text/whitelist.txt) | ip | 6710 | 2026-04-23 | ок |
 | [roscomvpn-custom](https://raw.githubusercontent.com/hydraponique/roscomvpn-geoip/HEAD/CUSTOM-WHITELIST.txt) | ip | 17911 | 2026-06-06 | ок |
 | [escapingworm](https://raw.githubusercontent.com/escapingworm/russia-whitelist/HEAD/ru-whitelist-cidr.txt) | ip | 88 | 2026-04-22 | ок |
-| [overskye-v4](https://raw.githubusercontent.com/overskye/ru-cdn-whitelist/HEAD/ipv4.txt) | ip | 532 | 2026-11-10 | ок |
+| [overskye-v4](https://raw.githubusercontent.com/overskye/ru-cdn-whitelist/HEAD/ipv4.txt) | ip | 534 | 2026-11-12 | ок |
 | [overskye-v6](https://raw.githubusercontent.com/overskye/ru-cdn-whitelist/HEAD/ipv6.txt) | ip | 241 | 2026-11-03 | ок |
 | [d010b-no-more](https://raw.githubusercontent.com/d010b/custom_geoip/HEAD/whitelist_no_more) | ip_exclude | 46 | 2026-09-23 | ок |
 | [hxehex](https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/HEAD/whitelist.txt) | sni | 910 | 2026-07-23 | ок |

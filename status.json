@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-16T00:06:46Z",
+ "generated_at": "2026-11-17T03:01:41Z",
  "counts": {
   "ip": 30506,
-  "sni": 1393
+  "sni": 1394
  },
  "sources": [
   {
@@ -132,8 +132,8 @@
    "stale": false,
    "error": null,
    "rejected": 0,
-   "count": 1332,
-   "updated_at": "2026-10-22T12:18:18Z"
+   "count": 1333,
+   "updated_at": "2026-11-16T16:19:51Z"
   }
  ]
 }

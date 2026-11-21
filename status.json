@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-18T02:30:07Z",
+ "generated_at": "2026-11-21T01:38:17Z",
  "counts": {
-  "ip": 30503,
+  "ip": 30501,
   "sni": 1394
  },
  "sources": [
@@ -32,8 +32,8 @@
    "stale": false,
    "error": null,
    "rejected": 0,
-   "count": 874,
-   "updated_at": "2026-11-17T11:25:13Z"
+   "count": 876,
+   "updated_at": "2026-11-20T13:22:35Z"
   },
   {
    "name": "roscomvpn",
@@ -113,7 +113,7 @@
    "error": "HTTP Error 404: Not Found",
    "rejected": 0,
    "count": 322,
-   "updated_at": "2026-11-04T21:11:30Z"
+   "updated_at": null
   },
   {
    "name": "roscomvpn",

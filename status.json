@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-21T01:38:17Z",
+ "generated_at": "2026-11-24T04:53:52Z",
  "counts": {
-  "ip": 30501,
+  "ip": 30503,
   "sni": 1394
  },
  "sources": [
@@ -32,8 +32,8 @@
    "stale": false,
    "error": null,
    "rejected": 0,
-   "count": 876,
-   "updated_at": "2026-11-20T13:22:35Z"
+   "count": 870,
+   "updated_at": "2026-11-23T09:46:34Z"
   },
   {
    "name": "roscomvpn",
@@ -72,8 +72,8 @@
    "stale": false,
    "error": null,
    "rejected": 0,
-   "count": 533,
-   "updated_at": "2026-11-17T18:30:11Z"
+   "count": 534,
+   "updated_at": "2026-11-23T17:10:11Z"
   },
   {
    "name": "overskye-v6",

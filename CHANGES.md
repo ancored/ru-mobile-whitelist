@@ -1,11 +1,11 @@
-- IP: 30503 записей (+0 / −0)
-- SNI: 1665 записей (+271 / −0)
+- IP: 30503 записей (+1 / −1)
+- SNI: 1665 записей (+0 / −0)
 
 | Источник | Тип | Записей | Изменён в источнике | Состояние |
 |---|---|---|---|---|
 | [hxehex-cidr](https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/HEAD/cidrwhitelist.txt) | ip | 30228 | 2026-05-09 | ок |
 | [hxehex-ip](https://raw.githubusercontent.com/hxehex/russia-mobile-internet-whitelist/HEAD/ipwhitelist.txt) | ip | 141664 | 2026-05-11 | ок |
-| [d010b](https://raw.githubusercontent.com/d010b/custom_geoip/HEAD/whitelist_url.txt) | ip | 870 | 2026-11-23 | ок |
+| [d010b](https://raw.githubusercontent.com/d010b/custom_geoip/HEAD/whitelist_url.txt) | ip | 874 | 2026-11-26 | ок |
 | [roscomvpn](https://raw.githubusercontent.com/hydraponique/roscomvpn-geoip/HEAD/release/text/whitelist.txt) | ip | 6710 | 2026-04-23 | ок |
 | [roscomvpn-custom](https://raw.githubusercontent.com/hydraponique/roscomvpn-geoip/HEAD/CUSTOM-WHITELIST.txt) | ip | 17911 | 2026-06-06 | ок |
 | [escapingworm](https://raw.githubusercontent.com/escapingworm/russia-whitelist/HEAD/ru-whitelist-cidr.txt) | ip | 88 | 2026-04-22 | ок |

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-27T03:00:21Z",
+ "generated_at": "2026-11-28T02:51:49Z",
  "counts": {
-  "ip": 30503,
+  "ip": 30502,
   "sni": 1665
  },
  "sources": [
@@ -72,8 +72,8 @@
    "stale": false,
    "error": null,
    "rejected": 0,
-   "count": 534,
-   "updated_at": "2026-11-23T17:10:11Z"
+   "count": 533,
+   "updated_at": "2026-11-27T12:10:12Z"
   },
   {
    "name": "overskye-v6",
@@ -82,8 +82,8 @@
    "stale": false,
    "error": null,
    "rejected": 0,
-   "count": 241,
-   "updated_at": "2026-11-03T12:00:12Z"
+   "count": 240,
+   "updated_at": "2026-11-27T12:10:12Z"
   },
   {
    "name": "d010b-no-more",
